@@ -3,9 +3,11 @@
 import os
 import sys
 
-from seedSelection import SeedSelection  
+from mutate import Mutate  
+
 
 def main():
+    '''
     if len(sys.argv) != 3:
         print('Incorrect format')
         sys.exit(1)
@@ -18,7 +20,7 @@ def main():
         fuzzer_bitmap = bitmap_file.read()
     source_dir = os.path.join(fuzzer_dir, 'queue')
     dest_dir = os.path.join(fuzzer_dir, '..', 'seed', 'queue')
-
+    '''
 
 
 if __name__ == '__main__':

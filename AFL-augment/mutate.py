@@ -3,7 +3,7 @@
 import os
 import sys
 
-class SeedSelection(object):
+class Mutate(object):
     ''' This is the class for mutating seeds '''
     def __init__(self, input_str, fuzz_bitmap, argv=None):
 
