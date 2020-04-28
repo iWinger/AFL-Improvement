@@ -8,10 +8,15 @@ American Fuzzy Lop Improvement is a project designed to **find security vulnerab
 cd into directory ~/AFL-Improvement/AFL_VIRTUALENV/AFL-augment/OUR_CODE
 <br/>
 [example_one, example_two, example_three, example_four]
+<br/>
 Examples)
+<br/>
 python r_cycle.py example_two
+<br/>
 => This will generate a detailed documentation on the results of the new metric cyclomatic complexity.
+<br/>
 python r_cycle.py example_four
+<br/>
 => This will generate a McCabe Cyclomatic Complexity score of 11 (which signals that we might need to refactor code)
 
 ### Why
@@ -24,8 +29,13 @@ We calculated cyclomatic complexity through the formula (E-N+2xP), where E = num
 ## Collaborators (GitHub users):
 
 iWinger (Contribution: 20pts/20)
+<br/>
 lawyang14 (Contribution: 18pts/20)
+<br/>
 amurao1998 (Contribution: 18pts/20)
+<br/>
 Rutgers-Yang-Bao (Contribution: 5pts/20) 
+<br/>
 sabackwon (Contribution: 5pts/20)
+<br/>
 pinkjim  (Contribution: 5pts/20)
