@@ -25,8 +25,11 @@ Cyclomatic complexity is extremely useful because it helps with testability and 
 
 ## Rating System
 1 - 10 => Low risk, testable code, maintainable.
+<br/>
 11 -> 20 => Needs potential refactoring, moderate risk, hard to test code, and hard to maintain.
+<br/>
 21 -> 50 => High risk, definitely needs refactoring, not so testable-code, and not so maintainable
+<br/?
 50+ => Legacy code / Untestable code / Unmaintainable
 
 ## How It Works
