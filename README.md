@@ -44,8 +44,8 @@ lawyang14 NetID: yhy6(Contribution: 18pts/20)
 <br/>
 amurao1998 NetID: arr162(Contribution: 18pts/20)
 <br/>
-Rutgers-Yang-Bao NetID: yb184(Contribution: 5pts/20) 
+Rutgers-Yang-Bao NetID: yb184(Contribution: 4pts/20) 
 <br/>
-sabackwon NetID:sk1998 (Contribution: 5pts/20)
+sabackwon NetID:sk1998 (Contribution: 6pts/20)
 <br/>
-pinkjim NetID: yj253(Contribution: 5pts/20)
+pinkjim NetID: yj253(Contribution: 4pts/20)
