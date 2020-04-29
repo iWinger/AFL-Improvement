@@ -23,19 +23,26 @@ python r_cycle.py example_four
 Instead of improving existing features, our team decided to create our own new metric to add an improvement to AFL. We believe cyclomatic complexity would help in terms of refactoring the code if it is too complex, eliminating bugs that would remain hidden. This means that this code does not support Google Suites / LAVA because we are adding a new metric in, and not improving existing ones.
 Cyclomatic complexity is extremely useful because it helps with testability and maintainability. Testability and maintainability take up a huge amount of time in the software development cycle, and it is crucial that we do all we can to streamline the process. By running this program, you would easily be able to tell if you need to refactor the code or not based on the algorithm we produced. We included a rating score in the output to show how each example stacks up against the cyclomatic complexity test. 
 
+## Rating System
+1 - 10 => Low risk, testable code, maintainable.
+11 -> 20 => Needs potential refactoring, moderate risk, hard to test code, and hard to maintain.
+21 -> 50 => High risk, definitely needs refactoring, not so testable-code, and not so maintainable
+50+ => Legacy code / Untestable code / Unmaintainable
+
 ## How It Works
 We calculated cyclomatic complexity through the formula (E-N+2xP), where E = number of edges, N = number of nodes, and P = number of exit points. We walked through the AST (Abstract Syntax Tree) and found corresponding nodes, such as If / While / Return nodes, and calculated the edges accordingly, and the exit points as well. The reason why we decided to use an AST, was to detect nested if statements, because that would change the calculations as opposed to parsing tokens.
 
+
 ## Collaborators (GitHub users):
 
-iWinger (Contribution: 20pts/20)
+iWinger NetID: wc432 (Contribution: 20pts/20)
 <br/>
-lawyang14 (Contribution: 18pts/20)
+lawyang14 NetID: yhy6(Contribution: 18pts/20)
 <br/>
-amurao1998 (Contribution: 18pts/20)
+amurao1998 NetID: arr162(Contribution: 18pts/20)
 <br/>
-Rutgers-Yang-Bao (Contribution: 5pts/20) 
+Rutgers-Yang-Bao NetID: yb184(Contribution: 5pts/20) 
 <br/>
-sabackwon (Contribution: 5pts/20)
+sabackwon NetID:sk1998 (Contribution: 5pts/20)
 <br/>
-pinkjim  (Contribution: 5pts/20)
+pinkjim NetID: yj253(Contribution: 5pts/20)
