@@ -40,14 +40,14 @@ We calculated cyclomatic complexity through the formula (E-N+2xP), where E = num
 
 ## Collaborators (GitHub users):
 
-iWinger NetID: wc432 (Contribution: 20pts/20)
+iWinger
 <br/>
-lawyang14 NetID: yhy6(Contribution: 18pts/20)
+lawyang14
 <br/>
-amurao1998 NetID: arr162(Contribution: 18pts/20)
+amurao1998 
 <br/>
-Rutgers-Yang-Bao NetID: yb184(Contribution: 4pts/20) 
+Rutgers-Yang-Bao
 <br/>
-sabackwon NetID:sk1998 (Contribution: 6pts/20)
+sabackwon
 <br/>
-pinkjim NetID: yj253(Contribution: 4pts/20)
+pinkjim
