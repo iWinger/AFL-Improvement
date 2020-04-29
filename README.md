@@ -35,6 +35,8 @@ Cyclomatic complexity is extremely useful because it helps with testability and 
 ## How It Works
 We calculated cyclomatic complexity through the formula (E-N+2xP), where E = number of edges, N = number of nodes, and P = number of exit points. We walked through the AST (Abstract Syntax Tree) and found corresponding nodes, such as If / While / Return nodes, and calculated the edges accordingly, and the exit points as well. The reason why we decided to use an AST, was to detect nested if statements, because that would change the calculations as opposed to parsing tokens.
 
+### Pictures
+
 
 ## Collaborators (GitHub users):
 
